@@ -1,3 +1,4 @@
 var g = G$('John', 'Doe');
 
-console.log(g);
+// chainable methods
+g.greet().setLang('es').greet(true);
