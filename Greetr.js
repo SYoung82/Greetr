@@ -6,13 +6,15 @@
   }
 
   // hidden within the scope of the IIFE and never directly accessible
-  var supportedLangs = ['en', 'es', 'tr'];
+  var supportedLangs = ['en', 'es', 'pt', 'tr'];
+
 
   // informal greetings
   var greetings = {
     en: 'Hello',
     es: 'Hola',
     tr: 'Naber?',
+    pt: 'Olá'
   };
 
   // formal greetings
@@ -20,6 +22,7 @@
     en: 'Greetings',
     es: 'Saludos',
     tr: 'Merhaba',
+    pt: 'Bem vindo'
   };
 
   // logger messages
@@ -27,6 +30,7 @@
     en: 'Logged in',
     es: 'Inició sesión',
     tr: 'Giris',
+    pt: 'Sessão iniciada'
   };
 
   // prototype holds methods (to save memory space)
