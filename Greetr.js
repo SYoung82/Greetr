@@ -11,19 +11,22 @@
   // informal greetings
   var greetings = {
     en: 'Hello',
-    es: 'Hola'
+    es: 'Hola',
+    tr: 'Naber?',
   };
 
   // formal greetings
   var formalGreetings = {
     en: 'Greetings',
-    es: 'Saludos'
+    es: 'Saludos',
+    tr: 'Merhaba',
   };
 
   // logger messages
   var logMessages = {
     en: 'Logged in',
-    es: 'Inició sesión'
+    es: 'Inició sesión',
+    tr: 'Giris',
   };
 
   // prototype holds methods (to save memory space)
