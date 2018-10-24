@@ -6,7 +6,7 @@
   }
 
   // hidden within the scope of the IIFE and never directly accessible
-  var supportedLangs = ['en', 'es'];
+  var supportedLangs = ['en', 'es', 'tr'];
 
   // informal greetings
   var greetings = {
